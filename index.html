@@ -1,39 +1,133 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width">
-  <meta charset="UTF-8">
-  <link rel="me" href="https://google.com/profiles/thenextweb" type="text/html">
-  <link rel="me" href="danylov.sergey1@example.com">
-  <link rel="me" href="sms:+15035550125">
-  <title>Donald Trump — Résumé</title>
-  <link rel='shortcut icon' type='image/x-icon' href='favicon.ico' />
-  <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-precomposed.png">
-  <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-72x72-precomposed.png">
-  <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-114x114-precomposed.png">
-  <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-144x144-precomposed.png">
-  <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link rel="stylesheet" href="css/normalize.min.css">
-  <link rel="stylesheet" href="css/main.css">
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
-  <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
-  <script src="js/vendor/jquery.hashchange.min.js"></script>
-  <script src="js/vendor/jquery.easytabs.min.js"></script>
+<title>Donald Trump - Resume</title>
 
-  <script src="js/main.js"></script>
-  <!--[if lt IE 9]>
-      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-      <script>window.html5 || document.write('<script src="js/vendor/html5shiv.js"><\/script>')</script>
-      <![endif]-->
+<!--[if lt IE 9]>
+<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<link rel="stylesheet" href="resources/reset.css">
+<!--[if lt IE 9]> 
+	<link rel="stylesheet" href="css/cv.css" media="screen">
+<![endif]-->
+<link rel="stylesheet" media="screen and (max-width:480px)" href="resources/mobile.css">
+<link rel="stylesheet" media="screen and (min-width:481px)" href="resources/cv.css">
+<link rel="stylesheet" media="print" href="resources/print.css">
 </head>
- <body>
-  -Hello, world!
-</body>
-</html>
+
+<body>
+
+	<!-- Header -->
+	<header role="banner">
+		<div class="container_16">
+				<hgroup>
+					<h1>Donald Trump</h1>
+				</hgroup>
+
+				<figure>
+					<img src="resources/avatar.png" alt="Trump">
+				</figure>
+		</div>
+	</header>
+	
+	<!-- Contact -->
+	<section class="contactform clearfix">
+		<div class="container_16">
+			<h3>Contactez-moi</h3>
+			<p>Remplissez le formulaire ci-dessous afin de m'envoyer un message. Je vous répondrais dans les plus bref délai. 
+			<br><em>Tous les champs sont requis.</em></p>
+			<form novalidate="novalidate" method="post" action="#" name="contact" class="grid_16">
+				<p class="grid_10"><textarea name="message" placeholder="Votre message" class="required"></textarea></p>
+				<p class="grid_6">
+					<input name="nom" placeholder="Nom - Prénom" class="required" type="text">
+					<input name="email" placeholder="Adresse email" class="required" type="email">	
+					<input name="envoi" value="Envoyer le message" class="required" type="submit">
+					<span class="messageform"></span>
+				</p>
+			</form>
+		</div>
+	</section>
+	
+	<section role="main" class="container_16 clearfix">
+		<div class="grid_16">
+			<div class="grid_8 apropos">
+				<h3>Intro</h3>
+				<p>I own buildings. I am a builder. I know how to build.<strong> NOBODY CAN BUILD LIKE ME. NOBODY.</strong> And the buildings in New York will tell you that. I build the best product. And my name helps a lot. </p>
+			</div>
+			
+			<!-- Compétences -->
+			<div class="grid_8 competences">
+				<h3>Skills</h3>
+				<ul class="barres">
+					<li data-skills="80">Name calling<span style="width: 80%;"></span></li>
+					<li data-skills="60">Watching television - Especially Fox News<span style="width: 70%;"></span></li>
+					<li data-skills="75">Being a jerk<span style="width: 83%;"></span></li>
+					<li data-skills="40"> Firing people<span style="width: 88%;"></span></li>
+					<li data-skills="95">Tweeting<span style="width: 95%;"></span></li>
+				</ul>
+			</div>
+		</div>
+			<div class="grid_16 experiences">
+				<h3>Timeline</h3>
+				<ul style="text-align: center;">
+          <li>
+						<h4><strong>1999</strong></h4>
+						<p>Trump founds Trump Model Management</p>
+          </li>
+          <li>
+						<h4><strong>2009</strong></h4>
+						<p>Grand opening of Trump International Hotel and Tower in Chicago</p>
+          </li>
+          <li>
+						<h4><strong>2012</strong></h4>
+						<p>Identifies with the Republician party again</p>
+          </li>
+          <li>
+						<h4><strong>2015</strong></h4>
+						<p>Announces 2016 candidacy</p>
+					</li>
+				</ul>
+			</div>
+		
+			<div class="grid_16 formations">
+				<h3>Activities</h3>
+				<ul>
+					<li>
+						<h4><strong>Hobbies</strong> </h4>
+						<p>Attending political rallies, Reading my own name in the paper and on documents, Drinking Diet Coke,  eating cherry-vanilla ice cream.</p>
+					</li>	
+				</ul>
+			</div>
+		
+			<!-- Loisirs -->
+			<div class="grid_8 loisirs">
+				<h3>Characteristics</h3>
+				<p><strong>Bright sides :</strong> Highly Adjusted, Highly Ambitious, Highly Sociable, Low on Interpersonal Sensitivity, Low on Prudence , Highly Inquisitive, Charisma.</p>
+				<p><strong>Dark sides :</strong>Highly Bold, Highly Mischievous, Low on Diligence, Low on Dutifulness, Openness to feelings</p>
+			</div>
+		
+			<!-- Contact -->
+			<div class="grid_8 contact">
+				<h3>Contact</h3>
+				<p>You can try to contact me here, but I probably won't respond.</p>
+				<ul>
+          <li class="site"><a href="https://twitter.com/realdonaldtrump">Twitter</a></li>	
+          <li class="site"><a href="https://www.whitehouse.gov/contact/">White house</a></li>
+				</ul>
+			</div>
+	</section>
+
+<!-- Scripts JavaScript -->
+<script src="resources/jquery-1.js"></script>
+<script src="resources/validate.js"></script>
+<!--[if lt IE 9]>
+<script src="scripts/placeholder.js"></script>
+<![endif]-->
+<script src="resources/plugins.js"></script>
+
+</body></html>
