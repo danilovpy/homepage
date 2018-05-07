@@ -26,7 +26,7 @@
 	<header role="banner">
 		<div class="container_16">
 				<hgroup>
-					<h1>Donald Trump</h1>
+					<img id="trumplogo" src="resources/trump.png"style="width:30%; height 30%" alt="trump">
 				</hgroup>
 
 				<figure>
@@ -39,11 +39,14 @@
 	<section role="main" class="container_16 clearfix">
 		<div class="grid_16">
 			<div class="grid_8 apropos">
-				<h3>Intro</h3>
-				<p>I own buildings. I am a builder. I know how to build.<strong> NOBODY CAN BUILD LIKE ME. NOBODY.</strong> And the buildings in New York will tell you that. I build the best product. And my name helps a lot. </p>
+				<div class="headerimg">
+						<h3>Intro</h3>
+				</div>
+			
+				<p>I own buildings. I am a builder. I know how to build.<strong> NOBODY CAN BUILD LIKE ME. NOBODY.</strong> And the buildings in New York will tell you that. I build the best product. And my name helps a lot. Right now I am building a wall, the greatest wall that humanity has yet to see. Not gonna lie, I consider myself as a member of a "Lucky sperm club" </p>
 			</div>
 			
-			<!-- Compétences -->
+		
 			<div class="grid_8 competences">
 				<h3>Skills</h3>
 				<ul class="barres">
@@ -56,7 +59,9 @@
 			</div>
 		</div>
 			<div class="grid_16 experiences">
-				<h3>Timeline</h3>
+				<div class="headerimg">
+						<h3>Timeline</h3>
+				</div>
 				<ul style="text-align: center;">
           <li>
 						<h4><strong>1999</strong></h4>
@@ -70,9 +75,13 @@
 						<h4><strong>2012</strong></h4>
 						<p>Identifies with the Republician party again</p>
           </li>
-          <li>
+          			<li>
 						<h4><strong>2015</strong></h4>
 						<p>Announces 2016 candidacy</p>
+					</li>
+					<li>
+							<h4><strong>2016 - Current year</strong></h4>
+							<p>Makes America Great Again</p>
 					</li>
 				</ul>
 			</div>
@@ -92,7 +101,7 @@
 				
 			</div>
 		
-			<!-- Loisirs -->
+		
 			<div class="grid_8 loisirs">
 				<h3>Activities and Hobbies</h3>
 				<p>Attending political rallies, Reading my own name in the paper and on documents, Drinking Diet Coke, eating cherry-vanilla ice cream.</p>
@@ -104,8 +113,8 @@
 				<h3>Contact</h3>
 				<p>You can try to contact me here, but I probably won't respond.</p>
 				<ul>
-          <li class="site"><a href="https://twitter.com/realdonaldtrump">Twitter</a></li>	
-          <li class="site"><a href="https://www.whitehouse.gov/contact/">White house</a></li>
+          <li class="site" style="list-style-image: url(resources/twitter-icon.png)" ><a href="https://twitter.com/realdonaldtrump">Twitter</a></li>	
+          <li class="site" style="list-style-image:url(resources/house.png)"><a href="https://www.whitehouse.gov/contact/">White house</a></li>
 				</ul>
 			</div>
 	</section>
@@ -117,5 +126,10 @@
 <script src="scripts/placeholder.js"></script>
 <![endif]-->
 <script src="resources/plugins.js"></script>
+<script>
+// 	if ($(window).width() > 460) {
+// 		$("h3").before("<img src='resources/trump1.png'style='width:8%;height:8%' class='trumpez' />")
+// }
+</script>
 
 </body></html>
