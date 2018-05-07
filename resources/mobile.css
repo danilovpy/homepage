@@ -159,9 +159,12 @@
 		width: 50px;
 	}
 	
-	section[role=main] h3:before {
-		background-color: #33a4c9;
-		border-radius: 25px;
+	h3:before {
+		content:url('resources/trump1.png'); /* with class ModalCarrot ??*/
+  		position:relative; /*or absolute*/
+ 	 	z-index:100000; /*a number that's more than the modal box*/
+  		left:-50px;
+  		top:10px;
 	}
 	
 						
