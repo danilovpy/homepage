@@ -64,7 +64,10 @@
 		padding: 19px 0;
 		overflow: hidden;
 	}
-	
+	section[role=main] h3:before {
+		background-color: #33a4c9;
+		border-radius: 25px;
+	}
 	header figure {
 		border: 3px solid #eee;
 		border-radius: 78px;
@@ -72,17 +75,23 @@
 		height: 156px;
 		width: 156px;
 	}
+	#trumplogo {
+		float:left;
+	}
 	
 	header figure img {
 		border-radius: 75px;
 		height: 150px;
 		position: relative;
 		width: 150px;
+		float:right;
+		
 	}
 	
 	header hgroup {
-		float: left;
-		padding: 42px 0;
+		display: inline;
+		padding: 0 0;
+		margin: 0 auto;
 	}
 	
 	header hgroup h1 {
@@ -127,36 +136,11 @@
 		width: 100%;
 	}
 	
-	.contactform input[type=text], .contactform input[type=email] {
-		margin-bottom: 21px;
-	}
 	
-	.contactform textarea {
-		font-family: 'DroidSansRegular', Arial, sans-serif;
-		font-size: 14px;
-		height: 148px;
-	}
 	
-	.contactform input[type=text]:focus, .contactform input[type=email]:focus, .contactform textarea:focus {
-		border: 1px solid #226d85;
-		opacity: 1;
-		outline: none;
-		-webkit-transition: opacity 1s;
+	.headerimg{
+		display:block;
 	}
-	
-	.contactform input[type=submit] {
-		background: #ff9f39;
-		border: 1px solid #ff9f39;
-		border-radius: 2px;
-		color: #fff;
-		cursor: pointer;
-		font-weight: bold;
-		font-size: 14px;
-		margin: 0;
-		padding: 10px 10px 9px 10px;
-		width: 100%;
-	}
-	
 	.contactform input.error, .contactform textarea.error {
 		border: 1px solid red;
 	}
@@ -175,27 +159,6 @@
 			text-align: center;
 			width: 100%; 
 		}
-		.envoi-valid, .envoi-error { 
-			display: inline-block; 
-		 }
-		.envoi-valid { 
-			background-color: #31D869;
-			border:1px solid #108D3A; 
-			color: #108D3A;
-		}
-		.envoi-error { 
-			background-color: #FF5839;
-			border:1px solid #A62913; 
-			color: #A62913;
-		}
-		.envoi-error a {
-			color: #A62913;
-			text-decoration: underline;
-		}
-			section[role=main] {
-		padding: 21px 0;
-		overflow: hidden;
-	}
 	
 	section[role=main] > div {
 		margin-top: 63px;
@@ -218,15 +181,14 @@
 		width: 50px;
 	}
 	
-	section[role=main] h3:before {
-		background-color: #33a4c9;
-		border-radius: 25px;
+	/* section[role=main] h3:before {
+		content:url('resources/trump1.png') no-repeat 11px 10px;
 	}
 	
 				
 		section[role=main] h3:after {
-			background:url('../img/pictos-titre.png') no-repeat 11px 10px;
-		}
+			background:url('resources/trump1.png') no-repeat 11px 10px;
+		} */
 		
 		section[role=main] .competences h3:after {
 			background-position: 11px -34px;
