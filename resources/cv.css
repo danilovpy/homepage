@@ -65,8 +65,10 @@
 		overflow: hidden;
 	}
 	section[role=main] h3:before {
-		background-color: #33a4c9;
-		border-radius: 25px;
+		background-color: lightgrey;
+		border-radius: 30px;
+		width:30px;
+		height:30px;
 	}
 	header figure {
 		border: 3px solid #eee;
