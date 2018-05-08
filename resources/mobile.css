@@ -61,10 +61,18 @@
 	}
 	
 	
+	.reply{
+		position:absolute;
+		right:530px;
+		top:0px;
+		display: none;
+	}
 						
 	section[role=main] h3:after {
-		background-color: #33a4c9;
-		border-radius: 25px;
+		background-color: lightgrey;
+		border-radius: 30px;
+		width:30px;
+		height:30px;
 	}
 	
 	section[role=main] .competences h3:after {
