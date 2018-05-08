@@ -78,7 +78,13 @@
 	#trumplogo {
 		float:left;
 	}
-	
+	.reply{
+		position:absolute;
+		right:530px;
+		top:0px;
+		display: none;
+	}
+
 	header figure img {
 		border-radius: 75px;
 		height: 150px;

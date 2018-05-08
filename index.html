@@ -28,6 +28,7 @@
 				<hgroup>
 					<img id="trumplogo" src="resources/TRUMP.png"style="width:30%; height 30%" alt="trump">
 				</hgroup>
+				<div class="reply"><img src="resources/dialog.png" alt="Don't click his face."></div>
 				<figure>
 						<div id="vibrate">
 					<a href="http://elegiggle.com"><img src="resources/avatar.png" alt="Trump"></a>
@@ -126,6 +127,15 @@
 <!--[if lt IE 9]>
 <script src="scripts/placeholder.js"></script>
 <![endif]-->
-<script src="resources/plugins.js"></script>
+<script>
+	$(document).ready(function(){
+		$('#vibrate').hover(function(){
+			$('.reply').fadeIn(100);
+		},function(){
+			$('.reply').fadeOut(100);
+		})
+
+	});
+</script>
 </body>
 </html>
