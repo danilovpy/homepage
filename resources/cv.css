@@ -139,21 +139,11 @@
 		padding: 21px 0;
 	}
 	
-	.contactform input[type=text], .contactform input[type=email], .contactform textarea {
-		background: #2983a0;
-		border: 1px solid #226d85;
-		border-radius: 2px;
-		color: #fff;
-		max-width: 100%;
-		opacity: .7;
-		padding: 10px 10px 9px 10px;
-		margin-top: 0;
+	.contact li span{
 		position: relative;
-		vertical-align: top;
-		width: 100%;
+		left:-25px;
+		top:-5px;
 	}
-	
-	
 	
 	.headerimg{
 		display:block;
@@ -281,30 +271,13 @@
 	}
 	
 	
-		.lieu, .dates, .phone, .mail, .site, .form, .twitter, .facebook, .dribbble, .skype {
-		background: url('../img/pictos-gris.png') no-repeat;
+	 .site, .form, .twitter{
 		padding-left: 25px;
 		margin: 0 10px 1px 10px;
 	}
 	
-	.lieu {
-		background-position: 0 -2px;
-		color: #999;
-	}
 	
-	.dates {
-		background-position: 0 -22px;
-		color: #999;
-	}
-	
-	.phone {
-		background-position: 0 -40px;
-	}
-	
-	.mail {
-		background-position: 0 -58px;
-	}
-	
+
 	.site {
 		background-position: 0 -80px;
 	}
@@ -315,16 +288,4 @@
 	
 	.twitter {
 		background-position: 0 -122px;
-	}
-	
-	.facebook {
-		background-position: 0 -140px;
-	}
-	
-	.dribbble {
-		background-position: 0 -160px;
-	}
-	
-	.skype {
-		background-position: 0 -180px;
 	}
